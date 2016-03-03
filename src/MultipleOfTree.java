@@ -5,6 +5,7 @@ public class MultipleOfTree {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("수 입력 : ");
 		int input = scanner.nextInt(); scanner.nextLine();
 		char[] parsedInput = String.valueOf(input).toCharArray();
 		int refaced = 0;
