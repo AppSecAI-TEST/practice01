@@ -10,7 +10,7 @@ public class GuessNumber {
 			String msg = "";
 			do {
 				count ++;
-				System.out.print(msg + "\n" + min + " : " + max + "\n >> ");
+				System.out.print(msg + "\n" + min + " : " + max + "\n" + count + " : >> ");
 				input = scanner.nextInt(); scanner.nextLine();
 				
 				if (k > input ){
