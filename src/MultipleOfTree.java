@@ -7,10 +7,7 @@ public class MultipleOfTree {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("수 입력 : ");
 		int input = scanner.nextInt(); scanner.nextLine();
-		char[] parsedInput = String.valueOf(input).toCharArray();
-		int refaced = 0;
-		for (int i = 0; i < parsedInput.length; i ++) refaced += parsedInput[i] - '0';
-		String msg = refaced % 3 == 0 && refaced != 0 ? "3의 배수" : "3의 배수 아님";
+		String msg = input % 3 == 0 && input != 0 ? "3의 배수" : "3의 배수 아님";
 		System.out.println(msg);
 		
 	}
