@@ -10,6 +10,7 @@ public class MultipleOfTree {
 		String msg = input % 3 == 0 && input != 0 ? "3의 배수" : "3의 배수 아님";
 		System.out.println(msg);
 		
+		scanner.close();
 	}
 
 }

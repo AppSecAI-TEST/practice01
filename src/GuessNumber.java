@@ -25,5 +25,6 @@ public class GuessNumber {
 			System.out.println("맞았습니다~! \n다시하겠습니까? (y/n(defualt))");
 		} while (scanner.nextLine().charAt(0) == 'y');
 		
+		scanner.close();
 	}
 }
