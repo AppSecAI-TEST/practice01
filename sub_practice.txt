@@ -43,3 +43,5 @@ release/v0.0.7 01
 develop_sub_sub 10
 
 develop_sub_sub test-feature 01
+
+develop_sub_sub test-feature 02
